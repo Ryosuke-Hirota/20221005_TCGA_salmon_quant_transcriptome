@@ -1,0 +1,21 @@
+# 20221005_TCGA_salmon_quant_transcriptome
+
+#各ファイルの説明
+
+"gdc_manifest.2022-10-05_colon_transcriptome.txt" は、transcriptomeにアラインされたTCGA colon bamファイルをgdc-clientでダウンロードする際に必要なマニフェスト。
+
+"gdc_manifest.2022-10-05_skin_transcriptome.txt" は、transcriptomeにアラインされたTCGA colon bamファイルをgdc-clientでダウンロードする際に必要なマニフェスト。
+
+"TCGA_colon_salmon_quant_transcriptome.sh" は、transcriptomeにアラインされたbamをsalmonのアライメントベースモードで転写産物レベルを定量するスクリプト。
+
+"TCGA_colon_transcriptome_process.txt" は、ダウンロードしたtranscriptomeにアラインされたTCGA colon bamファイルをsalmonのアライメントベースモードで転写産物レベルを定量する際に必要なファイル。bamファイルのUUIDとファイル名がが書かれている。
+
+"TCGA_skin_transcriptome_process.txt" は、ダウンロードしたtranscriptomeにアラインされたTCGA skin bamファイルをsalmonのアライメントベースモードで転写産物レベルを定量する際に必要なファイル。bamファイルのUUIDとファイル名がが書かれている。
+
+"20221015_download.log" は、"gdc_manifest.2022-10-05_colon_transcriptome.txt" を使ってgdc-clientでbamをダウンロードしようとしたときのログ。
+
+#コメント
+"gdc_manifest.2022-10-05_colon_transcriptome.txt" を使ってgdc-clientでbamファイルをダウンロードしようとしたが、2種類のエラーが発生("20221015_download.log"参照)。
+1つはファイルやディレクトリが存在しないことを示すエラーで、もう1つはダウンロードするファイルが存在していないことを示すエラーであった。
+ファイルやディレクトリが存在しないことを示すエラーが発生したファイルの中には、前回ダウンロードできていたファイルが含まれていた。
+gdc-clientでのダウンロードに問題がある可能性があり、別の方法でダウンロードする必要がある。
