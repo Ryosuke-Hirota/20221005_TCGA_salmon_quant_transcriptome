@@ -8,9 +8,9 @@
 
 "TCGA_colon_salmon_quant_transcriptome.sh" は、transcriptomeにアラインされたbamをsalmonのアライメントベースモードで転写産物レベルを定量するスクリプト。
 
-"TCGA_colon_transcriptome_process.txt" は、ダウンロードしたtranscriptomeにアラインされたTCGA colon bamファイルをsalmonのアライメントベースモードで転写産物レベルを定量する際に必要なファイル。bamファイルのUUIDとファイル名がが書かれている。
+"TCGA_colon_transcriptome_process.txt" は、ダウンロードしたtranscriptomeにアラインされたTCGA colon bamファイルをsalmonのアライメントベースモードで転写産物レベルを定量する際に必要なファイル。bamファイルのUUIDとファイル名が書かれている。
 
-"TCGA_skin_transcriptome_process.txt" は、ダウンロードしたtranscriptomeにアラインされたTCGA skin bamファイルをsalmonのアライメントベースモードで転写産物レベルを定量する際に必要なファイル。bamファイルのUUIDとファイル名がが書かれている。
+"TCGA_skin_transcriptome_process.txt" は、ダウンロードしたtranscriptomeにアラインされたTCGA skin bamファイルをsalmonのアライメントベースモードで転写産物レベルを定量する際に必要なファイル。bamファイルのUUIDとファイル名が書かれている。
 
 "20221015_download.log" は、"gdc_manifest.2022-10-05_colon_transcriptome.txt" を使ってgdc-clientでbamをダウンロードしようとしたときのログ。
 
